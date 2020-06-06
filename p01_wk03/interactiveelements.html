@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is the home page for IAT339 Project 01 Week 3 by Dennis Limbo -->
+<head>
+    <meta charset="utf-8">
+    <title>Project01: ZenKeebs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <a href="#">Skip to content</a>
+    
+    <div class="content-wrapper">
+        <div class="row">
+
+            <div class="column">
+                <div class="nav-column">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="interactiveelements.html">Basic Interactive Elements</a></li>
+                        <li class="nav-item"><a href="textstyle.html">Text Styling</a></li>
+                        <li class="nav-item"><a href="wireframes/task1.html">Wireframes</a></li>
+                        <li class="nav-item"><a href="modelements.html">Modular Element Patterns</a></li>
+                        <li class="nav-item"><a href="citations.html">Citations</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="triple-column">
+                <div class="content-column">
+                    <h1 class="page-header">Basic Interactive Elements</h1>
+                      
+                    <!-- In-text link -->
+                    <section class="element-container">
+                        <h2>In-Text Link</h2>
+                        <h3 class="item-header">Example</h3>
+                        <p>There is a <a id="link-example" href="#">link</a> in this line of text.</p>
+                        <h4 class="item-header">Code</h4>
+                        <code>&lt;p&gt;There is a &lt;a id="link-example" href="#"&gt;link&lt;a&gt; in this line of text&lt;p&gt;.</code>
+                    </section>
+
+                    <!-- call to action button -->
+                    <section class="element-container">
+                        <h2>Call to Action button</h2>
+                        <h3 class="item-header">Example</h3>
+                        <label for="CTAButton">Call to Action Example</label>
+                        <input class="btn-cta" type="button" value="CTAButton">
+                        <h4 class="item-header">Code</h4>
+                        <code>
+                            &lt;label for=&quot;cta-example&quot;&gt;Call to Action Example&lt;/label&gt;<br>
+                            &lt;input class="btn-cta" type="button" value="CTA BUTTON"&gt;
+                        </code>
+                    </section>
+
+                    <!-- submit button for forms -->
+                    <section class="element-container">
+                        <h2>Submit Button for Forms</h2>
+                        <h3 class="item-header">Example</h3>
+                        <p>
+                            <label name="submit" for="SUBMIT">example</label>
+                            <input class="submit-btn" type="submit" value="SUBMIT" name="example">
+                        </p>
+                        <h4 class="item-header">Code</h4>
+                        <code>
+                            &lt;label name=&quot;submit&quot; for=&quot;SUBMIT&quot;&gt;example&lt;/label&gt;
+                            &lt;input class="submit-btn" type="submit" value="BUTTON"&gt;<br>
+                        </code>
+                    </section>
+
+                    <!-- reset/previous button for forms -->
+                    <section class="element-container">
+                        <h2>Reset Button for Forms</h2>
+                        <h3 class="item-header">Example</h3>
+                        <p>
+                            <label for="resettxt">Example Field</label>    
+                            <input class="textfield" type="text" name="resettxt" value="Example">
+                            <input class="reset-btn" type="reset" value="Reset">
+                        </p>
+                        <h4 class="item-header">Code</h4>
+                        <code>
+                            &lt;label for=&quot;resettxt&quot;&gt;Example Field&lt;/label&gt;
+                            &lt;input type="text" name="example" value="Example"&gt;<br>
+                            &lt;input class="reset-btn" type="reset" value="Reset"&gt;<br>
+                        </code>
+                    </section>
+                    
+                    <!-- text input field -->
+                    <section class="element-container">
+                        <h2>Text Input Field</h2>
+                        <h3 class="item-header">Example</h3>
+                        <form>
+                            <input class="textfield" type="text" name="example" value="Example">
+                        </form>
+                        <h4 class="item-header">Code</h4>
+                        <code>
+                            &lt;form&gt;<br>
+                            &lt;input class="textfield" type="text" name="example" value="Example"&gt;<br>
+                            &lt;/form&gt;
+                        </code>
+                    </section>
+
+                    <!-- label for the text input field -->
+                    <section class="element-container">
+                        <h2>Label for Text Input Fields</h2>
+                        <p>If desired, you can have a label for text input fields. Don't forget to change around element attributes to suit needs</p>
+                        <h3 class="item-header">Example</h3>
+                        <form>
+                            <label>Example Label</label>
+                            <input type="text">
+                        </form>
+                        <h4 class="item-header">Code</h4>
+                        <code>
+                            &lt;form&gt;<br>
+                            &lt;label&gt;Example Label&lt;/label&gt;<br>
+                            &lt;input type="text"&gt;<br>
+                            &lt;/form&gt;
+                        </code>
+                    </section>
+
+                    <!-- website colour swatches -->
+                    <section class="element-container">
+                        <h2>Primary Colors</h2>
+                        <div id="oxley-container">
+                            <h3 class="item-header">Oxley</h3>
+                            <p>The Base Colour, Used in banner and through out site.</p>
+                            <p>HEX: #709775</p>
+                            <p>RGB: (112,151,117)</p>
+                            <p>CMYK: 0.26	0.00	0.23   0.41</p>
+                        </div>
+                        <div id="black-container">
+                            <h3 class="item-header white-text">Black</h3>
+                            <p class="white-text" >Used in Text and some borders</p>
+                            <p class="white-text">HEX: #000000</p>
+                            <p class="white-text">RGB: (0,0,0)</p>
+                            <p class="white-text">CMYK: 0  0   0   1</p>
+                        </div>
+                        <div id="white-container">
+                            <h3 class="item-header">White</h3>
+                            <p>Used for text in contrast with darker backgrounds.</p>
+                            <p>HEX: #FFFFFF</p>
+                            <p>RGB: (255,255,255)</p>
+                            <p>CMYK: 0 0 0 0</p>
+                        </div>
+                        <h2>Secondary Colours</h2>
+                        <div id="seamist-container">
+                            <h3 class="item-header">Sea Mist</h3>
+                            <p>Used for footer and sold-out/unavailable buttons and links</p>
+                            <p>HEX: #C4D4C6</p>
+                            <p>RGB: (196,212,198)</p>
+                            <p>CMYK: 	0.08	0.00	0.07   0.17</p>
+                        </div>
+                        <div id="edward-container">
+                            <h3 class="item-header">Edward</h3>
+                            <p>Used for icons, hover states and some navbar elements</p>
+                            <p>HEX: #97B49B</p>
+                            <p>RGB: (151,180,155)</p>
+                            <p>CMYK: 0.16	0.00	0.14   0.29</p>
+                        </div>
+                        <div id="springleaves-container">
+                            <h3 class="item-header">Spring Leaves</h3>
+                            <p>Used for buttons and the current section of the site</p>
+                            <p>HEX: #507E56</p>
+                            <p>RGB: (80,126,86)</p>
+                            <p>CMYK: 0.37	0.00	0.32   0.51</p>
+                        </div>
+                        <div id="huntergreen-container">
+                            <h3 class="item-header white-text">Hunter Green</h3>
+                            <p class="white-text">Used for clicked links and other elements like buttons</p>
+                            <p class="white-text">HEX: #345F39</p>
+                            <p class="white-text">RGB: (52,95,57)</p>
+                            <p class="white-text">CMYK: 0.45	0.00	0.40   0.63</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

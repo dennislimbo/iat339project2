@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This is the home page for IAT339 Project 01 Week 3 by Dennis Limbo -->
+<head>
+    <meta charset="utf-8">
+    <title>Project01: ZenKeebs</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <a href="#">Skip to content</a>
+    
+    <div class="content-wrapper">
+        <div class="row">
+            
+            <div class="column">
+                <div class="nav-column">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="interactiveelements.html">Basic Interactive Elements</a></li>
+                        <li class="nav-item"><a href="textstyle.html">Text Styling</a></li>
+                        <li class="nav-item"><a href="wireframes/task1.html">Wireframes</a></li>
+                        <li class="nav-item"><a href="modelements.html">Modular Element Patterns</a></li>
+                        <li class="nav-item"><a href="citations.html">Citations</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="triple-column">
+                <div class="content-column">
+                    <h1 class="page-header">Modular Pattern Elements</h1>
+                    
+                        <!-- main nav module div -->
+                        <div class="modelement">
+                            <h2 class="section-header">Main Navigation Module</h2>
+                            <p class="section-content">
+                                Usage: Every page, similar layout for gallery item detail view. In a broad sense this lay out can be used when there is main 
+                                content flanked by two elements with one more element underneath
+                            </p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container nav-container">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="first-col column adjust-height">
+                                            <h2 style="padding-left: 100px;">ZenKeebs</h2>
+                                        </div>
+                                        <div class="double-column adjust-height">
+                                            <form action="#">
+                                                <input aria-label="SampleButton"class="nav-textfield" type="text" id="searchterm" name="searchterm" value="What are you looking for?">
+                                                <input style="border: 0.5px solid black; margin-top: 1em;" class="submit-btn" type="submit" value="Search">
+                                            </form>
+                                        </div>
+                                        <div class="last-col column adjust-height">
+                                            <div class="row">
+                                            <div class="column adjust-height">
+                                                <a href="#" class="nav-icon" id="nav-cart"><img src="assets/cart.svg" alt="Click to see your cart" class="nav-icon"></a>
+                                            </div>
+                                            <div class="column adjust-height">
+                                                <a href="#" class="nav-icon"><img src="assets/account_box-24px.svg" alt="Click to go to your account" class="nav-icon"></a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <div class="row navbar-links">
+                                            <div class="first-col column"><a href="#">Home</a></div>
+                                            <div class="column"><a href="#">Shop</a></div>
+                                            <div class="column"><a href="#">Services</a></div>
+                                            <div class="column"><a href="#">Gallery</a></div>
+                                            <div class="column"><a href="#">About Us</a></div>
+                                            <div class="last-col column"><a href="#">FAQ</a></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- single product/service listing module -->
+                        <div class="modelement">
+                            <h2 class="section-header">Single Product Listing</h2>
+                            <p class="section-content">Usage: Product component pages, and Custom product pages.</p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container productlisting">
+                                <div class="row">
+                                    <div class="first-col hexa-column">
+                                        <div class="row">
+                                            <div class="first-col hexa-column">
+                                                <img id="hopper"src="assets/IslandHopperDeskmat_1800x1800.png" alt="PBT Islander Keycaps on a keyboard">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="last-col hexa-column product-description">
+                                        <h2>Product Title</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et leo nunc. Nunc auctor leo at nisl condimentum, eget euismod mauris convallis. Vestibulum faucibus vitae neque et lacinia. Mauris luctus, velit in fringilla vestibulum, tortor sem auctor justo, a accumsan diam metus non metus. Vestibulum tincidunt libero nec purus mollis dictum. Integer et ante aliquet, euismod ipsum quis, pharetra elit. Nam laoreet diam neque.</p>
+                                        <div class="row">
+                                            <div class="first-col column stars"><img class="stars" src="assets/Stars.png" alt="Rating system"></div>
+                                            <div class="column"></div>
+                                            <div class="last-col column"></div>
+                                        </div>
+                                        <div class="row">
+                                            <h3>PRICE</h3>
+                                        </div>
+                                        <div style="margin-top: 10em;" class="row">
+                                            <form>
+                                            <input class="submit-btn" type="submit" value="Submit">
+                                            </form>
+                                        </div>
+                                        <div style="margin-top: 2em;" class="row">
+                                            <form>
+                                            <input class="reset-btn" type="submit" value="Reset">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="first-col column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div class="column">
+                                            <div class="image-preview">
+                                                <p>Images go here</p>
+                                            </div>
+                                        </div>
+                                        <div style="padding-right: 7.5em;" class="last-col hexa-column">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="twelve-column">
+                                        <h3>Technical Details</h3>
+                                        <p class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et leo nunc. Nunc auctor leo at nisl condimentum, eget euismod mauris convallis. Vestibulum faucibus vitae neque et lacinia. Mauris luctus, velit in fringilla vestibulum, tortor sem auctor justo, a accumsan diam metus non metus. Vestibulum tincidunt libero nec purus mollis dictum. Integer et ante aliquet, euismod ipsum quis, pharetra elit. Nam laoreet diam neque.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- multiple products listing module-->
+                        <div class="modelement">
+                            <h2 class="section-header">Multiple Products By Category Listing Grid</h2>
+                            <p class="section-content">Usage: Products by category pages.  Repeat the number of "<code>column</code>" rows depending on how many items you want to display at a time.</p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container multi-products">
+                                <div class="row">
+                                    <div class="first-col double-column double-row lightgrey">
+                                        <code>double-column</code>
+                                        <code>first-col</code>
+                                        <p class="section-content">Suggested Categories and Items goes here</p>
+                                    </div>
+                                    <div class="quad-column">
+                                        <div class="row">
+                                            <div class="last-col quad-column single-row darkgrey">
+                                                <code>quad-column</code>
+                                                <code>last-col</code>
+                                                <p class="section-content">Wayfinding and Sorting goes here</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="column single-row grey">
+                                                <code>column</code>
+                                                <p class="section-content">Individual Products go here</p>
+                                            </div>
+                                            <div class="column single-row grey">
+                                                <code>column</code>
+                                                <p class="section-content">Individual Products go here</p>
+                                            </div>
+                                            <div class="column single-row grey">
+                                                <code>column</code>
+                                                <p class="section-content">Individual Products go here</p>
+                                            </div>
+                                            <div class="last-col column single-row grey">
+                                                <code>column</code>
+                                                <code>last-col</code>
+                                                <p class="section-content">Individual Products go here</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+
+
+                        <!-- triple column module -->
+                        <div class="modelement">
+                            <h2 class="section-header">Triple Column Grid</h2>
+                            <p class="section-content">Usage: Category Promo Tiles Layout. Generally whenever there is a need for three evenly spaced elements</p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container">
+                                <div class="row">
+                                    <div class="first-col column single-row grey">
+                                        <code>column</code>
+                                        <code>first-col</code>
+                                    </div>
+                                    <div class="column single-row grey">
+                                        <code>column</code>
+                                    </div>
+                                    <div class="last-col column single-row grey">
+                                        <code>column</code>
+                                        <code>last-col</code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- quad column module -->
+                        <div class="modelement">
+                            <h2 class="section-header">Four Column Grid</h2>
+                            <p class="section-content">Usage: Previous builds preview grid on homepage, products by search term pages. Generaly whenever there is a need for four evenly spaced columns</p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container">
+                                <div class="row">
+                                    <div class="first-col column single-row grey">
+                                        <code>column</code>
+                                        <code>first-col</code>
+                                    </div>
+                                    <div class="column single-row grey">
+                                        <code>column</code>
+                                    </div>
+                                    <div class="column single-row grey">
+                                        <code>column</code>
+                                    </div>
+                                    <div class="column single-row grey">
+                                        <code>column</code>
+                                        <code>last-col</code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- footer module -->
+                        <div class="modelement">
+                            <h2 class="section-header">Footer Module</h2>
+                            <p class="section-content">Usage: Every page for footer. Generally for mixed sized grids</p>
+                            <h3 class="item-header">Example</h3>
+                            <div class="example-container footer-module">
+                                <div class="row">
+                                    <div class="first-col double-column">
+                                        <h2>ZenKeebs</h2>
+                                        <p>© 2010 — 2020</p>
+                                        <p>Privacy — Terms</p>
+                                    </div>
+                                    <div class="column">
+                                        <h2>MENU</h2>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                    </div>
+                                    <div class="column">
+                                        <h2>MENU</h2>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                        <p>ITEM</p>
+                                    </div>
+                                    <div class="column">
+                                        <h2>CONTACT US</h2>
+                                        <p>Email: 123realmail@fakemail.ca</p>
+                                        <p>Call: 1.800.123.1234</p>
+                                        <H3>ZenKeebs</H3>
+                                        <p>123 Real Drive</p>
+                                        <p>Surrey, BC B4K 6I9</p>
+                                    </div>
+                                    <div class="last-col column">
+                                        <h2>FOLLOW US</h2>
+                                        <div class="row">
+                                            <div class="column">
+                                                <img class="socials"src="assets/socials.png" alt="Social Media Icons">
+                                            </div>
+                                            <div class="column"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Shipping Form  <div class="modelement">
+                            <h2 class="section-header">Address Form</h2>
+                            <p class="section-content">Usage: Entering customer info, changing address</p>
+                            <h3 class="item-header">Example (Scaled Up)</h3>
+                            <div class="example-container">
+                                <div class="row">
+                                    <div class="double-column">
+                                        <code>double-column</code>
+                                    </div>
+                                    <div class="double-column">
+                                        <code>double-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <code>quad-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <code>quad-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <code>quad-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <code>quad-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <code>column</code>
+                                    </div>
+                                    <div class="column">
+                                        <code>column</code>
+                                    </div>
+                                    <div class="double-column">
+                                                <code>double-column</code>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="quad-column">
+                                        <code>quad-column</code>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                        
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
